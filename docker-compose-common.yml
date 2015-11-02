@@ -5,6 +5,9 @@ commonlogstash:
 commonelasticsearch:
     image: elasticsearch
 
+commonkibana:
+    image: kibana:4.1.2
+
 #commonredis:
 #    image: redis
 
