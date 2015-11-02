@@ -1,0 +1,12 @@
+input {
+    file {
+        path => "/config-dir/input.txt"
+    }
+}
+
+output {
+    stdout {}
+    elasticsearch {
+        host => "elasticsearch"
+    }
+}

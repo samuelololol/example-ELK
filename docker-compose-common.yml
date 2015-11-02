@@ -1,0 +1,13 @@
+commonlogstash:
+    build: .
+    command: logstash -f /config-dir/logstash.yml
+
+commonelasticsearch:
+    image: elasticsearch
+
+#commonredis:
+#    image: redis
+
+#commonnginx:
+#    image: nginx
+    
