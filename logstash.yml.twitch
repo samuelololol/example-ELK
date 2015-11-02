@@ -1,0 +1,16 @@
+input {
+    irc{
+        channels => ["#", "#"]
+        catch_all => true
+        host => "irc.twitch.tv"
+        nick => ""
+        password => ""
+    }
+}
+
+output {
+    stdout {}
+    elasticsearch {
+        host => "elasticsearch"
+    }
+}
