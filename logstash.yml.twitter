@@ -1,0 +1,16 @@
+input {
+    twitter {
+        consumer_key => ""
+        consumer_secret => ""
+        keywords => ["", ""]
+        oauth_token => ""
+        oauth_token_secret => ""
+    }
+}
+
+output {
+    stdout {}
+    elasticsearch {
+        host => "elasticsearch"
+    }
+}
