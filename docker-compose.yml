@@ -27,7 +27,7 @@ elasticsearch:
 
 kibana:
     extends:
-        file: docker-common-common.yml
+        file: docker-compose-common.yml
         service: commonkibana
     ports:
         - "5601:5601"
